@@ -23,8 +23,8 @@ if(@ARGV == 0){
 }
 
 ##Initialize section.
-open(IN,"< $ARGV[0]");
-open(OUT,"> $ARGV[0]_nslookup.txt");
+open(IN,"< $ARGV[0]") or die("error :$!");
+open(OUT,"> $ARGV[0]_nslookup.txt") or die("error :$!");
 my $count = 0;
 my $domain_count = 0;
 my $error_count = 0;
