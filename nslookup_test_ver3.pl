@@ -16,6 +16,7 @@
 use strict;
 use warnings;
 
+#initialize section.
 my $dir = "/var/named/chroot/var/namedb";
 my $count = 0;
 my $success_count = 0;
